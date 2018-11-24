@@ -1,3 +1,6 @@
 Steps:
 
 Install django -> "pipenv install django==2.1"
+
+Goto pipenv shell -> pipenv shell
+Create Project django-admin startproject <ProjectName> .
