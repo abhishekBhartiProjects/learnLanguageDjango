@@ -1,6 +1,10 @@
-Steps:
+Steps: 
 
 Install django -> "pipenv install django==2.1"
 
 Goto pipenv shell -> pipenv shell
 Create Project django-admin startproject <ProjectName> .
+
+start server: stay in pipenv shell and start server -> "python manage.py runserver"
+
+Make TODO app: https://www.youtube.com/watch?v=ovql0Ui3n_I
