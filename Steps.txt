@@ -1,0 +1,3 @@
+Steps:
+
+Install django -> "pipenv install django==2.1"
