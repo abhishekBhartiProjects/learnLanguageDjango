@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'hello',
     'todo',
     'personal',
+    'blog',
 ]
 
 MIDDLEWARE = [

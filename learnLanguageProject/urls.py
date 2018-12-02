@@ -17,7 +17,8 @@ from django.contrib import admin
 from django.urls import path
 from hello.views import myView
 from todo.views import myTodo, addTodo, deleteTodo
-from personal.views import personalIndex
+from personal.views import personalIndex, contact
+from blog.views import blog
 
 urlpatterns = [
     path('admin/', admin.site.urls),
@@ -25,5 +26,7 @@ urlpatterns = [
     path('todo/', myTodo),
     path('addTodo/', addTodo),
     path('deleteTodo/<int:todo_id>/', deleteTodo),
-    path('personal/', personalIndex)
+    path('', personalIndex),
+    path('contact/', contact),
+    path('blog/', blog),
 ]
